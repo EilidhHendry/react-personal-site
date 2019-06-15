@@ -1,10 +1,10 @@
 // @flow
-import { Link } from 'gatsby';
 import React, { useState } from 'react';
 import { Menu as MenuIcon } from '@material-ui/icons';
 
 import Nav from './components/Nav';
 import { HeaderStyled, MenuButtonStyled } from './Header.style';
+import Link from '../Link';
 
 type Props = {
     siteTitle: String,

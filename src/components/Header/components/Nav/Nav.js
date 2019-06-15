@@ -1,8 +1,8 @@
 // @flow
 import React from 'react';
-import { Link } from 'gatsby';
 
 import { MenuItemsStyled, MenuItemStyled } from './Nav.style';
+import Link from '../../../Link';
 
 type Props = {
     isOpen: Boolean,
