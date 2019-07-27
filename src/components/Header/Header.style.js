@@ -16,6 +16,7 @@ const MenuButtonStyled = styled.button`
     align-self: flex-end;
     display: initial;
     position: absolute;
+    border: none;
 
     @media (min-width: ${({ theme }) => theme.screenSize.smallTablet}px) {
         display: none;
