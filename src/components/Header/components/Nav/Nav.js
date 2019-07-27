@@ -12,7 +12,7 @@ const Nav = ({ isOpen }: Props) => (
     <nav>
         <MenuItemsStyled isOpen={isOpen}>
             <MenuItemStyled>
-                <Link to="/">Page 1</Link>
+                <Link to="/cv/">CV</Link>
             </MenuItemStyled>
             <MenuItemStyled>
                 <Link to="/">Page 1</Link>
